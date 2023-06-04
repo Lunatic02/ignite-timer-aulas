@@ -9,9 +9,6 @@ import { CyclesContextProvider } from './contexts/CyclesContext'
 
 
 export function App() {
-  const [cycles, setCycles] = useState<Cycle[]>([])
-  const [activeCycleId, setActiveCycleId] = useState<string | null>(null)
-  const [amountSecondsPassed, setAmountSecondsPassed] = useState(0)
   return (
     <>
       <ThemeProvider theme={defaultTheme}>
